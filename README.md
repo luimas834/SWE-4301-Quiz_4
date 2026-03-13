@@ -1,22 +1,30 @@
-# SOLID design principles
+# SWE-4301 Quiz 4 / Assignment 2: SOLID Principles Refactoring
 
-This repository contains examples that violate the SOLID principles:
+**Name:** S.M. Samiul Hossain    
+**Student ID:** 230042110    
+**Course:** SWE-4301  
+**Task:** Assignment 2 / Quiz 4  
+**Language:** Java  
 
-- Single Responsibility Principle: Every class should have a single responsibility. A class should have one, and only
- one, reason to change. 
+## 📌 Description
+This repository contains the refactored code for five Java projects. The original codebase violated various SOLID principles of object-oriented design. The primary objective of this assignment was to identify these design flaws and refactor the code to strictly adhere to SOLID principles, ensuring better maintainability, scalability, and readability.
 
-- Open/Closed Principle: You should be able to extend a classes behavior, without modifying it. Software entities 
-should be open for extension, but closed for modification.
+## 🛠️ SOLID Principles Applied
+During the refactoring process, the following principles were implemented across the projects:
+- **S - Single Responsibility Principle (SRP):** Ensuring a class has only one reason to change.
+- **O - Open/Closed Principle (OCP):** Ensuring software entities are open for extension but closed for modification.
+- **L - Liskov Substitution Principle (LSP):** Ensuring derived classes are substitutable for their base classes.
+- **I - Interface Segregation Principle (ISP):** Ensuring clients are not forced to depend on interfaces they do not use.
+- **D - Dependency Inversion Principle (DIP):** Depending on abstractions, not on concretions.
 
-- Liskov Substitution Principle: Derived classes must be substitutable for their base classes. Functions that use references to base classes must be able to use objects of derived classes without knowing it.
+## 💻 Technologies Used
+- Java (100%)
 
-- Interface Segregation Principle: Make fine grained interfaces that are client specific. Clients should not be 
-forced to depend on interfaces they do not use.
-
-- Dependency Inversion Principle: Depend on abstractions, not on concretions. High-level modules should not depend on
- low-level modules. Both should depend on abstractions.   Abstractions should not depend on details. Details should 
- depend on abstractions.
-
-The objective is modify each of the examples in order to not violate the corresponding SOLID principle.
-
-## You can see solution adopted to every problem in a separated branch.
+## 🚀 How to Review the Code
+To review the refactored projects:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/luimas834/SWE-4301-Quiz_4.git
+   ```
+2. Open the directory in your preferred Java IDE (IntelliJ IDEA, Eclipse, VS Code, etc.).
+3. Navigate through the five project folders to view the refactored classes and interfaces.
